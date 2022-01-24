@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/back"
+        android:src="@drawable/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/music1"
+        android:text="All I Want For Christmas Is You"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/music2"
+        android:text="Blueming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/music3"
+        android:text="Dynamite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/music4"
+        android:text="Santa Tell Me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/music5"
+        android:text="Savage Love"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/music6"
+        android:text="취기를 빌려"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
