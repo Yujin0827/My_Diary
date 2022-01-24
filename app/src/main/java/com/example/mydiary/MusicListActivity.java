@@ -12,7 +12,7 @@ import com.cookandroid.finish.R;
 
 public class MusicListActivity extends AppCompatActivity {
     ImageView back;
-    Button music1, music2, music3, music4, music5, music6, stopms;
+    Button music1, music2, music3, music4, music5, music6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +34,6 @@ public class MusicListActivity extends AppCompatActivity {
         music4 = (Button) findViewById(R.id.music4);
         music5 = (Button) findViewById(R.id.music5);
         music6 = (Button) findViewById(R.id.music6);
-        stopms = (Button) findViewById(R.id.stopms);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         musiclist.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent2 = new Intent(getApplicationContext(), SecondActivity.class);
+                Intent intent2 = new Intent(getApplicationContext(), MusicListActivity.class);
                 startActivity(intent2);
                 mPlayer.pause();
             }
@@ -56,28 +56,28 @@ public class MainActivity extends AppCompatActivity {
 
         diary.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent3 = new Intent(getApplicationContext(), ThirdActivity.class);
+                Intent intent3 = new Intent(getApplicationContext(), CheckListActivity.class);
                 startActivity(intent3);
             }
         });
 
         alarm.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent4 = new Intent(getApplicationContext(), FourthActivity.class);
+                Intent intent4 = new Intent(getApplicationContext(), AlarmActivity.class);
                 startActivity(intent4);
             }
         });
 
         weather.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent6 = new Intent(getApplicationContext(), SixthActivity.class);
+                Intent intent6 = new Intent(getApplicationContext(), ProfileActivity.class);
                 startActivity(intent6);
             }
         });
 
         madeby.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent5 = new Intent(getApplicationContext(), FifthActivity.class);
+                Intent intent5 = new Intent(getApplicationContext(), WebActivity.class);
                 startActivity(intent5);
             }
         });
